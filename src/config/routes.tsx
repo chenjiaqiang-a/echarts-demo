@@ -10,6 +10,15 @@ import Cpt1Demo08 from '../pages/chapter1/Cpt1Demo08';
 import Cpt1Demo09 from '../pages/chapter1/Cpt1Demo09';
 import Cpt1Demo10 from '../pages/chapter1/Cpt1Demo10';
 import Cpt1Demo11 from '../pages/chapter1/Cpt1Demo11';
+import Cpt2Demo01 from '../pages/chapter2/Cpt2Demo01';
+import Cpt2Demo02 from '../pages/chapter2/Cpt2Demo02';
+import Cpt2Demo03 from '../pages/chapter2/Cpt2Demo03';
+import Cpt2Demo04 from '../pages/chapter2/Cpt2Demo04';
+import Cpt2Demo05 from '../pages/chapter2/Cpt2Demo05';
+import Cpt2Demo06 from '../pages/chapter2/Cpt2Demo06';
+import Cpt2Demo07 from '../pages/chapter2/Cpt2Demo07';
+import Cpt2Demo08 from '../pages/chapter2/Cpt2Demo08';
+import Cpt2Demo09 from '../pages/chapter2/Cpt2Demo09';
 
 export interface RouteConfig {
     text: string;
@@ -74,3 +83,53 @@ export const cpt1Routes: RouteConfig[] = [
         element: <Cpt1Demo11 />,
     },
 ];
+
+export const cpt2Routes: RouteConfig[] = [
+    {
+        text: '网格组件示例',
+        link: 'cpt-2-01',
+        element: <Cpt2Demo01 />,
+    },
+    {
+        text: '坐标轴组件示例',
+        link: 'cpt-2-02',
+        element: <Cpt2Demo02 />,
+    },
+    {
+        text: '标题组件示例',
+        link: 'cpt-2-03',
+        element: <Cpt2Demo03 />,
+    },
+    {
+        text: '多个标题组件示例',
+        link: 'cpt-2-04',
+        element: <Cpt2Demo04 />,
+    },
+    {
+        text: '图例组件示例',
+        link: 'cpt-2-05',
+        element: <Cpt2Demo05 />,
+    },
+    {
+        text: '图例组件（滚动效果）示例',
+        link: 'cpt-2-06',
+        element: <Cpt2Demo06 />,
+    },
+    {
+        text: '工具箱组件示例',
+        link: 'cpt-2-07',
+        element: <Cpt2Demo07 />,
+    },
+    {
+        text: '详情提示框组件示例',
+        link: 'cpt-2-08',
+        element: <Cpt2Demo08 />,
+    },
+    {
+        text: '标记点与标记线示例',
+        link: 'cpt-2-09',
+        element: <Cpt2Demo09 />,
+    },
+];
+
+export const routes: RouteConfig[] = [...cpt1Routes, ...cpt2Routes];

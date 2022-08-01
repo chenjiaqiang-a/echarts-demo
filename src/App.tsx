@@ -1,12 +1,12 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import { cpt1Routes } from './config/routes';
+import { routes } from './config/routes';
 
 function App() {
     return (
         <Routes>
             <Route index element={<Home />} />
-            {cpt1Routes.map((route) => (
+            {routes.map((route) => (
                 <Route
                     key={route.link}
                     path={route.link}
