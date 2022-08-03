@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { cpt1Routes, cpt2Routes } from '../config/routes';
+import { cpt1Routes, cpt2Routes, cpt3Routes } from '../config/routes';
 
 interface HomeProps {}
 
@@ -17,6 +17,12 @@ const Home: FC<HomeProps> = () => {
             <h3>ECharts 官方文档及常用组件</h3>
             <ul>
                 {cpt2Routes.map(route => (
+                    <li key={route.link}><Link to={`/${route.link}`}>{route.text}</Link></li>
+                ))}
+            </ul>
+            <h3>ECharts 中的其它图表</h3>
+            <ul>
+                {cpt3Routes.map(route => (
                     <li key={route.link}><Link to={`/${route.link}`}>{route.text}</Link></li>
                 ))}
             </ul>

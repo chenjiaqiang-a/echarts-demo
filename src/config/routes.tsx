@@ -19,6 +19,21 @@ import Cpt2Demo06 from '../pages/chapter2/Cpt2Demo06';
 import Cpt2Demo07 from '../pages/chapter2/Cpt2Demo07';
 import Cpt2Demo08 from '../pages/chapter2/Cpt2Demo08';
 import Cpt2Demo09 from '../pages/chapter2/Cpt2Demo09';
+import Cpt3Demo01 from '../pages/chapter3/Cpt3Demo01';
+import Cpt3Demo02 from '../pages/chapter3/Cpt3Demo02';
+import Cpt3Demo03 from '../pages/chapter3/Cpt3Demo03';
+import Cpt3Demo04 from '../pages/chapter3/Cpt3Demo04';
+import Cpt3Demo05 from '../pages/chapter3/Cpt3Demo05';
+import Cpt3Demo06 from '../pages/chapter3/Cpt3Demo06';
+import Cpt3Demo07 from '../pages/chapter3/Cpt3Demo07';
+import Cpt3Demo08 from '../pages/chapter3/Cpt3Demo08';
+import Cpt3Demo09 from '../pages/chapter3/Cpt3Demo09';
+import Cpt3Demo10 from '../pages/chapter3/Cpt3Demo10';
+import Cpt3Demo11 from '../pages/chapter3/Cpt3Demo11';
+import Cpt3Demo12 from '../pages/chapter3/Cpt3Demo12';
+import Cpt3Demo13 from '../pages/chapter3/Cpt3Demo13';
+import Cpt3Demo14 from '../pages/chapter3/Cpt3Demo14';
+import Cpt3Demo15 from '../pages/chapter3/Cpt3Demo15';
 
 export interface RouteConfig {
     text: string;
@@ -132,4 +147,82 @@ export const cpt2Routes: RouteConfig[] = [
     },
 ];
 
-export const routes: RouteConfig[] = [...cpt1Routes, ...cpt2Routes];
+export const cpt3Routes: RouteConfig[] = [
+    {
+        text: '基本散点图示例',
+        link: 'cpt-3-01',
+        element: <Cpt3Demo01 />,
+    },
+    {
+        text: '两个序列的散点图示例',
+        link: 'cpt-3-02',
+        element: <Cpt3Demo02 />,
+    },
+    {
+        text: '带涟漪特效的散点图示例',
+        link: 'cpt-3-03',
+        element: <Cpt3Demo03 />
+    },
+    {
+        text: '标准气泡图示例',
+        link: 'cpt-3-04',
+        element: <Cpt3Demo04 />
+    },
+    {
+        text: '人均寿命与GDP气泡图',
+        link: 'cpt-3-05',
+        element: <Cpt3Demo05 />
+    },
+    {
+        text: '城市空气污染指数气泡图',
+        link: 'cpt-3-06',
+        element: <Cpt3Demo06 />
+    },
+    {
+        text: '单仪表盘示例',
+        link: 'cpt-3-07',
+        element: <Cpt3Demo07 />
+    },
+    {
+        text: '多仪表盘示例',
+        link: 'cpt-3-08',
+        element: <Cpt3Demo08 />
+    },
+    {
+        text: '基本漏斗图/金字塔示例',
+        link: 'cpt-3-09',
+        element: <Cpt3Demo09 />
+    },
+    {
+        text: '多漏斗图和多金字塔示例',
+        link: 'cpt-3-10',
+        element: <Cpt3Demo10 />
+    },
+    {
+        text: '基本雷达图示例',
+        link: 'cpt-3-11',
+        element: <Cpt3Demo11 />
+    },
+    {
+        text: '复杂雷达图示例',
+        link: 'cpt-3-12',
+        element: <Cpt3Demo12 />
+    },
+    {
+        text: '多雷达图示例',
+        link: 'cpt-3-13',
+        element: <Cpt3Demo13 />
+    },
+    {
+        text: '词云图示例',
+        link: 'cpt-3-14',
+        element: <Cpt3Demo14 />
+    },
+    {
+        text: '矩形树图示例',
+        link: 'cpt-3-15',
+        element: <Cpt3Demo15 />
+    }
+];
+
+export const routes: RouteConfig[] = [...cpt1Routes, ...cpt2Routes, ...cpt3Routes];
