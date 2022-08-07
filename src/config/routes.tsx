@@ -34,6 +34,18 @@ import Cpt3Demo12 from '../pages/chapter3/Cpt3Demo12';
 import Cpt3Demo13 from '../pages/chapter3/Cpt3Demo13';
 import Cpt3Demo14 from '../pages/chapter3/Cpt3Demo14';
 import Cpt3Demo15 from '../pages/chapter3/Cpt3Demo15';
+import Cpt4Demo01 from '../pages/chapter4/Cpt4Demo01';
+import Cpt4Demo02 from '../pages/chapter4/Cpt4Demo02';
+import Cpt4Demo03 from '../pages/chapter4/Cpt4Demo03';
+import Cpt4Demo04 from '../pages/chapter4/Cpt4Demo04';
+import Cpt4Demo05 from '../pages/chapter4/Cpt4Demo05';
+import Cpt4Demo06 from '../pages/chapter4/Cpt4Demo06';
+import Cpt4Demo07 from '../pages/chapter4/Cpt4Demo07';
+import Cpt4Demo08 from '../pages/chapter4/Cpt4Demo08';
+import Cpt4Demo09 from '../pages/chapter4/Cpt4Demo09';
+import Cpt4Demo10 from '../pages/chapter4/Cpt4Demo10';
+import Cpt4Demo11 from '../pages/chapter4/Cpt4Demo11';
+import Cpt4Demo12 from '../pages/chapter4/Cpt4Demo12';
 
 export interface RouteConfig {
     text: string;
@@ -161,68 +173,136 @@ export const cpt3Routes: RouteConfig[] = [
     {
         text: '带涟漪特效的散点图示例',
         link: 'cpt-3-03',
-        element: <Cpt3Demo03 />
+        element: <Cpt3Demo03 />,
     },
     {
         text: '标准气泡图示例',
         link: 'cpt-3-04',
-        element: <Cpt3Demo04 />
+        element: <Cpt3Demo04 />,
     },
     {
         text: '人均寿命与GDP气泡图',
         link: 'cpt-3-05',
-        element: <Cpt3Demo05 />
+        element: <Cpt3Demo05 />,
     },
     {
         text: '城市空气污染指数气泡图',
         link: 'cpt-3-06',
-        element: <Cpt3Demo06 />
+        element: <Cpt3Demo06 />,
     },
     {
         text: '单仪表盘示例',
         link: 'cpt-3-07',
-        element: <Cpt3Demo07 />
+        element: <Cpt3Demo07 />,
     },
     {
         text: '多仪表盘示例',
         link: 'cpt-3-08',
-        element: <Cpt3Demo08 />
+        element: <Cpt3Demo08 />,
     },
     {
         text: '基本漏斗图/金字塔示例',
         link: 'cpt-3-09',
-        element: <Cpt3Demo09 />
+        element: <Cpt3Demo09 />,
     },
     {
         text: '多漏斗图和多金字塔示例',
         link: 'cpt-3-10',
-        element: <Cpt3Demo10 />
+        element: <Cpt3Demo10 />,
     },
     {
         text: '基本雷达图示例',
         link: 'cpt-3-11',
-        element: <Cpt3Demo11 />
+        element: <Cpt3Demo11 />,
     },
     {
         text: '复杂雷达图示例',
         link: 'cpt-3-12',
-        element: <Cpt3Demo12 />
+        element: <Cpt3Demo12 />,
     },
     {
         text: '多雷达图示例',
         link: 'cpt-3-13',
-        element: <Cpt3Demo13 />
+        element: <Cpt3Demo13 />,
     },
     {
         text: '词云图示例',
         link: 'cpt-3-14',
-        element: <Cpt3Demo14 />
+        element: <Cpt3Demo14 />,
     },
     {
         text: '矩形树图示例',
         link: 'cpt-3-15',
-        element: <Cpt3Demo15 />
-    }
+        element: <Cpt3Demo15 />,
+    },
 ];
 
-export const routes: RouteConfig[] = [...cpt1Routes, ...cpt2Routes, ...cpt3Routes];
+export const cpt4Routes: RouteConfig[] = [
+    {
+        text: '双y轴的折线图与柱状图混搭图表',
+        link: 'cpt-4-01',
+        element: <Cpt4Demo01 />,
+    },
+    {
+        text: '带水印的柱状图与饼图混搭图表',
+        link: 'cpt-4-02',
+        element: <Cpt4Demo02 />,
+    },
+    {
+        text: '柱状图联动图表',
+        link: 'cpt-4-03',
+        element: <Cpt4Demo03 />,
+    },
+    {
+        text: '饼图与柱状图联动图表',
+        link: 'cpt-4-04',
+        element: <Cpt4Demo04 />,
+    },
+    {
+        text: '主题切换示例',
+        link: 'cpt-4-05',
+        element: <Cpt4Demo05 />,
+    },
+    {
+        text: '添加鼠标点击事件的柱状图',
+        link: 'cpt-4-06',
+        element: <Cpt4Demo06 />,
+    },
+    {
+        text: '包含鼠标单击事件的参数的柱状图',
+        link: 'cpt-4-07',
+        element: <Cpt4Demo07 />,
+    },
+    {
+        text: '包含图例选中事件的柱状图',
+        link: 'cpt-4-08',
+        element: <Cpt4Demo08 />,
+    },
+    {
+        text: '调用datazoom事件的折线图与柱状图',
+        link: 'cpt-4-09',
+        element: <Cpt4Demo09 />,
+    },
+    {
+        text: '调用dispatchAction循环高亮圆环图的每个扇区',
+        link: 'cpt-4-10',
+        element: <Cpt4Demo10 />,
+    },
+    {
+        text: '异步加载数据并绘制饼图',
+        link: 'cpt-4-11',
+        element: <Cpt4Demo11 />,
+    },
+    {
+        text: '异步加载数据并绘双柱状图',
+        link: 'cpt-4-12',
+        element: <Cpt4Demo12 />,
+    },
+];
+
+export const routes: RouteConfig[] = [
+    ...cpt1Routes,
+    ...cpt2Routes,
+    ...cpt3Routes,
+    ...cpt4Routes,
+];

@@ -32,3 +32,20 @@
 .radio-group .radio-wrap input {
     margin-right: 5px;
 }
+
+.select-container {
+    margin: 20px;
+}
+
+.select-container .select-label {
+    margin-bottom: 10px;
+}
+
+.select-container select {
+    background: #fafdfe;
+    height: 28px;
+    width: 180px;
+    line-height: 28px;
+    border: 1px solid #9bc0dd;
+    border-radius: 2px;
+}
