@@ -1,13 +1,52 @@
+@import url(./assets/css/reset.css);
+
+.platform {
+    height: 100vh;
+}
+
+.home h1 {
+    padding: 10px 20px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.home h3 {
+    padding: 5px 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.home ul {
+    padding: 0 40px;
+    display: flex;
+    flex-flow: wrap;
+}
+
 .home ul li {
-    padding: 5px 0;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    background: #9bc0dd;
+    font-size: 14px;
+    font-weight: bold;
 }
 .home a {
     text-decoration: none;
     padding: 2px 3px;
 }
-.home a:hover {
-    background: #eee;
+.home ul li:hover {
+    background: #0170fe;
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
+}
+
+.home ul li:hover a {
+    color: white;
+}
+
+.demo-container {
+    margin: 0 10px;
 }
 
 .go-back-link {
@@ -16,6 +55,8 @@
 
 .go-back-link a {
     text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
     padding: 2px 5px;
 }
 .go-back-link a:hover {
@@ -48,4 +89,12 @@
     line-height: 28px;
     border: 1px solid #9bc0dd;
     border-radius: 2px;
+}
+
+.platform .go-back-link {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 10px;
+    z-index: 100;
 }

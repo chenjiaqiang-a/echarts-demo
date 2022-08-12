@@ -14,7 +14,7 @@ const Cpt2Demo08: FC<{}> = () => {
         return 'loading';
     };
     return (
-        <div className="cpt-2-08">
+        <div className="demo-container cpt-2-08">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

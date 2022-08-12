@@ -21,7 +21,7 @@ function randomDataArray(): number[][] {
 
 const Cpt3Demo04: FC<{}> = () => {
     return (
-        <div className="cpt-3-04">
+        <div className="demo-container cpt-3-04">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

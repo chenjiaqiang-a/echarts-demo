@@ -10,7 +10,7 @@ const Cpt4Demo05: FC<{}> = () => {
         setTheme(val);
     }; 
     return (
-        <div className="cpt-4-05">
+        <div className="demo-container cpt-4-05">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

@@ -10,7 +10,7 @@ const Cpt4Demo10: FC<{}> = () => {
     const currentIndexRef = useRef<number>(-1);
 
     return (
-        <div className="cpt-4-10">
+        <div className="demo-container cpt-4-10">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

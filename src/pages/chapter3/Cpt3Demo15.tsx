@@ -25,7 +25,7 @@ const getLevelOption = () => [
 
 const Cpt3Demo15: FC<{}> = () => {
     return (
-        <div className="cpt-3-15">
+        <div className="demo-container cpt-3-15">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

@@ -1,10 +1,11 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import Chart from '../../components/Chart';
+import { request } from '../../utils/request';
 
 const Cpt4Demo12: FC<{}> = () => {
     return (
-        <div className="cpt-4-12">
+        <div className="demo-container cpt-4-12">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>
@@ -63,14 +64,7 @@ const Cpt4Demo12: FC<{}> = () => {
                 }}
                 fetcher={() => {
                     return new Promise((resolve, reject) => {
-                        fetch('http://localhost:3001/cpt4_12')
-                            .then((res) => {
-                                if (res.ok) {
-                                    return res.json();
-                                } else {
-                                    reject('请求失败');
-                                }
-                            })
+                        request('http://localhost:3001/cpt4_12')
                             .then((data) => {
                                 const boyList = []; //设置男生数组
                                 const girlList = []; //设置女生数组

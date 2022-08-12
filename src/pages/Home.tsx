@@ -32,6 +32,10 @@ const Home: FC<HomeProps> = () => {
                     <li key={route.link}><Link to={`/${route.link}`}>{route.text}</Link></li>
                 ))}
             </ul>
+            <h3>应用实战：无人售货机零售项目 ECharts 展现</h3>
+            <ul>
+                <li><Link to="/cpt-5/total">售货机大数据分析平台</Link></li>
+            </ul>
         </div>
     );
 };

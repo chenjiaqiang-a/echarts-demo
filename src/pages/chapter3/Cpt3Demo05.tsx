@@ -50,7 +50,7 @@ const data = [
 
 const Cpt3Demo05: FC<{}> = () => {
     return (
-        <div className="cpt-3-05">
+        <div className="demo-container cpt-3-05">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

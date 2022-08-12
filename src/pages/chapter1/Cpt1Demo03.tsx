@@ -4,7 +4,7 @@ import Chart from '../../components/Chart';
 
 const Cpt1Demo03: FC<{}> = () => {
     return (
-        <div className="cpt-1-03">
+        <div className="cpt-1-03 demo-container">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

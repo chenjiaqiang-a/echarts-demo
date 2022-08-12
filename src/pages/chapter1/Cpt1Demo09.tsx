@@ -60,7 +60,7 @@ const Cpt1Demo09: FC<{}> = () => {
         setOpt(val);
     };
     return (
-        <div className="cpt-1-09">
+        <div className="cpt-1-09 demo-container">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

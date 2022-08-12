@@ -70,7 +70,7 @@ ctx!.fillText(waterMarkText, 0, 0); //设置填充水印
 
 const Cpt4Demo02: FC<{}> = () => {
     return (
-        <div className="cpt-4-02">
+        <div className="demo-container cpt-4-02">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

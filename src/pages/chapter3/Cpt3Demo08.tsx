@@ -239,7 +239,7 @@ const Cpt3Demo08: FC<{}> = () => {
     }, []);
 
     return (
-        <div className="cpt-3-08">
+        <div className="demo-container cpt-3-08">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

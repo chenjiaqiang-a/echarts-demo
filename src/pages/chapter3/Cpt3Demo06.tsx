@@ -118,7 +118,7 @@ const schema = [
 
 const Cpt3Demo06: FC<{}> = () => {
     return (
-        <div className="cpt-3-06">
+        <div className="demo-container cpt-3-06">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

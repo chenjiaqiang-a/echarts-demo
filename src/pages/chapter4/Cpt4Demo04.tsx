@@ -9,7 +9,7 @@ const Cpt4Demo04: FC<{}> = () => {
         echarts.connect(groupName);
     }, []);
     return (
-        <div className="cpt-4-04">
+        <div className="demo-container cpt-4-04">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>

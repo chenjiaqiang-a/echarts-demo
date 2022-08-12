@@ -123,7 +123,7 @@ const option2: any = {
 const Cpt4Demo09: FC<{}> = () => {
     const [option, setOption] = useState(option2);
     return (
-        <div className="cpt-4-09">
+        <div className="demo-container cpt-4-09">
             <p className="go-back-link">
                 <Link to="/">返回目录</Link>
             </p>
